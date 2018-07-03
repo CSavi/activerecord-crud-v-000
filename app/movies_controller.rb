@@ -30,7 +30,7 @@ def can_be_created_in_a_block(args = {title: 'The String', release_date: 1973})
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  movies.first
 end
 
 def can_get_the_last_item_in_the_database
